@@ -6,11 +6,12 @@ Mask field for brazilian currency
 
 Run this command into your nova project:
 
-`composer require stonkeep/cpf-cnpj`
+`composer require stonkeep/moeda-real`
 
 ### Add it to your Nova Resource:
 
 ```php
 use Stonkeep\CpfCpnj\CpfCpnj;
-CpfCnpj::make('cpf');
+
+MoedaReal::make('Valor Total', 'valor_total'),
 ```
