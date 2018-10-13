@@ -11,7 +11,7 @@ Run this command into your nova project:
 ### Add it to your Nova Resource:
 
 ```php
-use Stonkeep\CpfCpnj\CpfCpnj;
+use Stonkeep\MoedaReal\MoedaReal;
 
 MoedaReal::make('Valor Total', 'valor_total'),
 ```
