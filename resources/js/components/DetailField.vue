@@ -3,7 +3,7 @@
     <div class="flex border-b border-40 remove-bottom-border">
         <div class="w-1/4 py-4">
             <h4 class="font-normal text-80">
-                Valor Total
+                {{field.name}}
             </h4>
         </div>
         <div class="w-3/4 py-4">
