@@ -7,7 +7,7 @@
             </h4>
         </div>
         <div class="w-3/4 py-4">
-            <money v-model="field.value" class="text-90">555.55</money>
+            <p class="text-90"> {{ field.value | toCurrency }}</p>
         </div>
     </div>
 </template>

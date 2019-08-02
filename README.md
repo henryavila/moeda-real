@@ -2,16 +2,7 @@
 
 Mask field for brazilian currency
 
-### Install
+### Credits
 
-Run this command into your nova project:
-
-`composer require stonkeep/moeda-real`
-
-### Add it to your Nova Resource:
-
-```php
-use Stonkeep\MoedaReal\MoedaReal;
-
-MoedaReal::make('Valor Total', 'valor_total'),
-```
+Based on: [https://github.com/stonkeep/moeda-real](https://github.com/stonkeep/moeda-real).
+The difference is that in this repo, I don't use <input> to display the values in Index and detail view
