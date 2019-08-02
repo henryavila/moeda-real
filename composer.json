@@ -1,6 +1,6 @@
 {
     "name": "henryavila/moeda-real",
-    "description": "A Laravel Nova field.",
+    "description": "Laravel Nova Field para campos de moeda em Real (Brasil).",
     "keywords": [
         "laravel",
         "nova"
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Stonkeep\\MoedaReal\\": "src/"
+            "Henryavila\\MoedaReal\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Stonkeep\\MoedaReal\\FieldServiceProvider"
+                "Henryavila\\MoedaReal\\FieldServiceProvider"
             ]
         }
     },
