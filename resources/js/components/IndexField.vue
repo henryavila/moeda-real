@@ -5,9 +5,6 @@
 
 <script>
 export default {
-    props: ['resourceName', 'field'],
-    computed() {
-        
-    }
+    props: ['resourceName', 'field']
 }
 </script>
